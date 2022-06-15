@@ -5,6 +5,10 @@
   @media (max-width: 1400px) {
     left: 0;
   }
+  @media (max-width: 500px) {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .input {
@@ -20,6 +24,10 @@
   }
 
   @media (max-width: 1170px) {
+    margin: 15px 0;
+  }
+  @media (max-width: 500px) {
+    width: 100%;
     margin: 15px 0;
   }
 }

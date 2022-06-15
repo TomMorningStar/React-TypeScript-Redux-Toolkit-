@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="wrapper">
-      <SearchContext.Provider>
+      <SearchContext.Provider value={{ searchValue, setSearchValue }}>
         <Header searchValue={searchValue} setSearchValue={setSearchValue} />
         <div className="content">
           <Routes>
